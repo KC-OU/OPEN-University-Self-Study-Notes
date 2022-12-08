@@ -1,4 +1,4 @@
-baseURL = "https://example.com/blogra/"
+baseURL = ""
 canonifyURLs=true
 pluralizeListTitles = false
 summaryLength   = 25
@@ -21,7 +21,7 @@ disqusShortname = ""
 
     # Social Media Params
     github     = "https://github.com/KC-OU"
-    
+
 # Configure the site menu here
 [menu]
     [[menu.main]]
