@@ -10,7 +10,7 @@ title         = "BlogRa"
 disqusShortname = ""
 
 [params]
-    description     = "The Ultimate Tech Blogging Theme"
+    description     = "Open University"
     contactEmail    = "your-email@domain.com"
     footer          = ""
     googleSearch    = "google-cse-key"
@@ -20,15 +20,7 @@ disqusShortname = ""
     mermaid         = false   # best to enable this in the front matter of a page
 
     # Social Media Params
-    facebook   = "https://www.facebook.com/DevHacker-2351204168278028"
-    twitter    = ""
-    youtube    = "https://www.youtube.com/channel/UC6uDg4IlPbLh2xNKrqnBczw"
-    instagram  = ""
-    github     = "https://github.com/rafed"
-    pinterest  = ""
-    linkedin   = "https://www.linkedin.com/in/rafed-m-yasir/"
-
-
+    github     = "https://github.com/KC-OU"
 # Configure the site menu here
 [menu]
     [[menu.main]]
@@ -50,23 +42,6 @@ disqusShortname = ""
                 name = "Sections"
                 url = "/sections/"
                 weight = 2
-            [[menu.main]]
-                parent = "blog"
-                name = "divider"
-                weight = 3
-            [[menu.main]]
-                parent = "blog"
-                name = "Tags"
-                url = "/tags/"
-                weight = 4
-    [[menu.main]]
-        name = "About"
-        url = "/about/"
-        weight = 3
-    [[menu.main]]
-        name = "Contact"
-        url = "/contact/"
-        weight = 4
 
 [markup.goldmark.parser.attribute]
     block = true
