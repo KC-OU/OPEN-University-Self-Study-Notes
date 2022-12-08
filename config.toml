@@ -5,7 +5,7 @@ summaryLength   = 25
 
 theme         = "BlogRa"
 languageCode  = "en-us"
-title         = "BlogRa"
+title         = "OU Self Study Notes"
 
 disqusShortname = ""
 
@@ -21,6 +21,7 @@ disqusShortname = ""
 
     # Social Media Params
     github     = "https://github.com/KC-OU"
+    
 # Configure the site menu here
 [menu]
     [[menu.main]]
