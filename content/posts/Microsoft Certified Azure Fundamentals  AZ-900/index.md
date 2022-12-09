@@ -1,9 +1,9 @@
 ---
-title: Write Math Equations
-date: 2020-12-21
-tags: [math]
+title: Microsoft Certified Azure Fundamentals  AZ-900
+date: 2022-12-09
+tags: [Azure, AZ-900]
 math: true
-image: equation.jpg
+image: azure-fundamentals.png
 ---
 
 Write math equations with ease. At first enable **math:true** in front matter.
