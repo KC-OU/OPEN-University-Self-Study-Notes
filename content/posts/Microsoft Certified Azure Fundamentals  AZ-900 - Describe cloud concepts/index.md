@@ -1,5 +1,5 @@
 ---
-title: Microsoft Certified Azure Fundamentals  AZ-900
+title: Microsoft Certified Azure Fundamentals  AZ-900 - Describe cloud concepts
 date: 2022-12-09
 tags: [Azure, AZ-900]
 math: true
@@ -22,3 +22,9 @@ Microsoft Azure is a cloud computing platform with an ever-expanding set of serv
 * Describe Azure Management and governance (30 - 35%)
 
 ### Learning Objectives
+
+* Define Cloud Computing
+* Define the shared responsibilitys
+* Define Cloud Models including Public, Private and Hybrid
+* Identify appropiate use cases for each cloud model
+* Compare Cloud Pricing Models
