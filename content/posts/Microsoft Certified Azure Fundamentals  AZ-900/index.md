@@ -5,3 +5,7 @@ tags: [Azure, AZ-900]
 math: true
 image: azure-fundamentals.png
 ---
+
+<!-- Useful Starting Notes -->
+
+# Introduction to Microsoft Azure Fundamentals
