@@ -1,6 +1,6 @@
 ---
 title: AZ-900 - Azure Fundamentals
-image: python.png
+image: azure-fundamentals.png
 ---
 
 AZ-900 - Azure Fundamentals
