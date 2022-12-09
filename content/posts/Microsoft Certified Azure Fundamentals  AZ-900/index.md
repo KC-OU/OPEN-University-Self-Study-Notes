@@ -10,9 +10,6 @@ image: azure-fundamentals.png
 ---
 
 <!-- Useful Starting Notes -->
-----------------------------------------------------
-
-<!-- Useful Starting Notes -->
 
 # Introduction to Microsoft Azure Fundamentals
 
@@ -23,7 +20,5 @@ Microsoft Azure is a cloud computing platform with an ever-expanding set of serv
 * Describe Cloud Concepts (20 - 40%)
 * Describe Azure Architecture and Services (30 - 40%)
 * Describe Azure Management and governance (30 - 35%)
-
-----------------------------------------------------
 
 ### Learning Objectives
