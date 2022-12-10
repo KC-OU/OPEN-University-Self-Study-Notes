@@ -5,7 +5,6 @@ tags: [Azure, AZ-900]
 image: windows-server-azure.png
 ---
 
-
 ---
 
 <!-- Useful Starting Notes -->
@@ -27,7 +26,18 @@ Microsoft Azure is a cloud computing platform with an ever-expanding set of serv
 * Define Cloud Models including Public, Private and Hybrid
 * Identify appropiate use cases for each cloud model
 * Compare Cloud Pricing Models
-
 ---
+
+### What is Cloud Computing
+
+Cloud Computing is the delivery of computing services over the internet.
+
+Computing services include IT infrastructure such as VM's Networking, Storage and Databases and it expands traditional IT like IOT (Internet of things), ML (Machine Learning) and AI (Artifical Intelligance).
+
+Cloud Computing, you pay what services you need, like you can chose how much memory or machine specs, you need and you can save on costs. Storage is a value of data you use. You can request as much storage as you need it.
+
+Make sure there are backups, Operating System is up to date and upmand running 24hrs a day.
+
+{{< youtube Fal8pZrS1lg >}} 
 
 
