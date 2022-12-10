@@ -46,5 +46,23 @@ The shared reponsabilies of sharing responsabilites between cloud provides and c
 
 The Consomer is reponsable for data and infomation on the cloud. For example, if you are using a cloud SQL Database. The cloud provider is reponsible for maintaing the database, however you are still repsonsable for the data and the data packets and updates and well as maintaining data and infomation.
 
+#### You are responsable for
 
+* The infomation and data stored in the cloud
+* Devices that are allowed to connect to your cloud (Cell Phones, Computers and etc.)
+* The accounts and identities of the people, services and devices within your organisation.
 
+#### The Cloud provider is always responsible for
+
+* The Physical Datacenter
+* The Physical Network
+* The Physical Hosts
+
+#### Your Sevice model will determine responsibility for thing like
+
+* Operating Systems
+* Networking Controls
+* Applications
+* Identity and Infrastructure
+
+### Define Cloud Models
