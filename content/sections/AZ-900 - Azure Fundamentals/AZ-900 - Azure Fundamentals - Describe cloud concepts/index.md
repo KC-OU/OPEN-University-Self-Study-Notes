@@ -66,3 +66,17 @@ The Consomer is reponsable for data and infomation on the cloud. For example, if
 * Identity and Infrastructure
 
 ### Define Cloud Models
+
+#### Private  Cloud
+
+Private cloud uses a sinle endity. It provides greater controlfor IT Departments, However comes with a greater cost and less benifits
+
+#### Public Cloud
+
+Public cloud are built and controlled by a third party cloud provider and with public cloud and anyone can purchase cloud services and can you resources.
+
+#### Hybrid Cloud
+
+Hybrid Cloud can use public and private services and allow private cloud to surge for increase temporary demand. Hybrid provides a extra layer of security.
+
+
