@@ -40,6 +40,8 @@ Make sure there are backups, Operating System is up to date and upmand running 2
 
 {{< youtube Fal8pZrS1lg >}} 
 
+---
+
 ### Describe the shared responsabilties models
 
 The shared reponsabilies of sharing responsabilites between cloud provides and consomers. Physical  Securit, Power, Coolins and Network conectivity are responsable by the cloud provider.
@@ -64,6 +66,8 @@ The Consomer is reponsable for data and infomation on the cloud. For example, if
 * Networking Controls
 * Applications
 * Identity and Infrastructure
+
+---
 
 ### Define Cloud Models
 
