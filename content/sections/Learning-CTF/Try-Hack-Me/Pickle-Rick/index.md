@@ -1,14 +1,8 @@
 ---
 title: Try Hack Me - Pickle Rick - Easy
-tags: [Pickle Rick, THM]
-image: PR2.jpg
+date: 2022-12-14
+tags: [Pickle-Rick,THM,CTF]
+image: PR.jpg
 ---
-
+hello
 ---
-
-<!-- Useful Starting Notes -->
-
-
-
-
-
