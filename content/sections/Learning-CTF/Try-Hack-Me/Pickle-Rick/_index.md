@@ -1,4 +1,4 @@
 ---
-title: TryHackMe
-image: thm.jpg
+title: PickleRick
+image: PR.jpg
 ---
