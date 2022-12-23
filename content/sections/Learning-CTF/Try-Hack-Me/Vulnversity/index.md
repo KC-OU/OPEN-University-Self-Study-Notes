@@ -18,7 +18,7 @@ Look at [OpenVPN](https://tryhackme.com/room/openvpn)
 - Gather information about this machine using a network scanning tool called nmap. 
 Check out the [Nmap](https://tryhackme.com/room/furthernmap) room for more on this!
 
-Questions
+#### Questions
 
 1. There are many nmap [cheatsheets](https://cdn.comparitech.com/wp-content/uploads/2019/06/Nmap-Cheat-Sheet-1.webp) online that you can use too. - **Answer** NO Answer, just click **Completed** 
 2. Scan the box, how many ports are open? **Answer** **6**
