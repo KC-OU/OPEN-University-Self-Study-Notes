@@ -26,10 +26,18 @@ Check out the [Nmap](https://tryhackme.com/room/furthernmap) room for more on th
 4. What version of the squid proxy is running on the machine? - **Answer** **400**
 5. Using the nmap flag -n what will it not resolve? - **Answer** **DNS**
 6. What is the most likely operating system this machine is running? - **Answer** **Ubuntu**
-7. What port is the web server running on?- **Answer** **3333**
-8. Its important to ensure you are always doing your reconnaissance thoroughly before progressing. Knowing all open services (which can all be points of exploitation) is very important, don't forget that ports on a higher range might be open so always scan ports after 1000 (even if you leave scanning in the background)- **Answer** NO Answer, just click **Completed** 
+7. What port is the web server running on? - **Answer** **3333**
+8. Its important to ensure you are always doing your reconnaissance thoroughly before progressing. Knowing all open services (which can all be points of exploitation) is very important, don't forget that ports on a higher range might be open so always scan ports after 1000 (even if you leave scanning in the background) - **Answer** NO Answer, just click **Completed** 
 
+### Task 3 - Locating directories using GoBuster
+- Using a fast directory discovery tool called GoBuster you will locate a directory that you can use to upload a shell to.
+
+- Lets first start of by scanning the website to find any hidden directories. To do this, we're going to use GoBuster.
+GoBuster is a tool used to brute-force URIs (directories and files), DNS subdomains and virtual host names. For this machine, we will focus on using it to brute-force directories.
+
+#### Questions
+1. Now lets run GoBuster with a wordlist: gobuster dir -u http://<ip>:3333 -w <word list location> - **Answer** NO Answer, just click **Completed** 
+2. What is the directory that has an upload form page? - **Answer** **/internal/**
 
 {{< youtube hvYWCegfEZs>}} 
-
 
