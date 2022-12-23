@@ -20,12 +20,14 @@ Check out the [Nmap](https://tryhackme.com/room/furthernmap) room for more on th
 
 Questions
 
-1. There are many nmap [cheatsheets](https://cdn.comparitech.com/wp-content/uploads/2019/06/Nmap-Cheat-Sheet-1.webp) online that you can use too. - **Answer** **NO Answer, just click Completed** 
-2.
-3.
-4.
-5.
-6.
+1. There are many nmap [cheatsheets](https://cdn.comparitech.com/wp-content/uploads/2019/06/Nmap-Cheat-Sheet-1.webp) online that you can use too. - **Answer** NO Answer, just click **Completed** 
+2. Scan the box, how many ports are open? **Answer** **6**
+3. What version of the squid proxy is running on the machine? - **Answer** **3.5.12**
+4. What version of the squid proxy is running on the machine? - **Answer** **400**
+5. Using the nmap flag -n what will it not resolve? - **Answer** **DNS**
+6. What is the most likely operating system this machine is running? - **Answer** **Ubuntu**
+7. What port is the web server running on?- **Answer** **3333**
+8. Its important to ensure you are always doing your reconnaissance thoroughly before progressing. Knowing all open services (which can all be points of exploitation) is very important, don't forget that ports on a higher range might be open so always scan ports after 1000 (even if you leave scanning in the background)- **Answer** NO Answer, just click **Completed** 
 
 
 {{< youtube hvYWCegfEZs>}} 
