@@ -45,16 +45,6 @@ Now you have found a form to upload files, we can leverage this to upload and ex
 #### Questions
 1. What common file type, which you'd want to upload to exploit the server, is blocked? Try a couple to find out. - **Answer** **.php** 
 
-<!-- Need to Add a Image --!>
-
-2. To identify which extensions are not blocked, we're going to fuzz the upload form.
-To do this, we're going to use BurpSuite. If you are unsure to what BurpSuite is, or how to set it up please completeour [BurpSuite](https://tryhackme.com/room/rpburpsuite) room first. - **Answer** NO Answer, just click **Completed**
-
-<!-- Need to Add a Image --!>
-
-3. Run this attack, what extension is allowed? - **Answer** **.phtml**
-
-
 ##### Reverse PHP Shell
 
 Now we know what extension we can use for our payload we can progress.
@@ -65,13 +55,25 @@ Download the following reverse PHP shell [here](https://github.com/pentestmonkey
 
 To gain remote access to this machine, follow these steps:
 
-- Edit the php-reverse-shell.php file and edit the ip to be your tun0 ip (you can get this by going to http://10.10.10.10 in the browser of your TryHackMe connected device).
+- Edit the php-reverse-shell.php file and edit the ip to be your tun0 ip (you can get this by going to http://<ip> in the browser of your TryHackMe connected device).
 
 - Rename this file to php-reverse-shell.phtml
 
 - We're now going to listen to incoming connections using netcat. Run the following command: nc -lvnp 1234
 
 - Upload your shell and navigate to http://<ip>:3333/internal/uploads/php-reverse-shell.phtml - This will execute your payload
+
+
+
+<!-- Need to Add a Image --!>
+
+2. To identify which extensions are not blocked, we're going to fuzz the upload form.
+To do this, we're going to use BurpSuite. If you are unsure to what BurpSuite is, or how to set it up please completeour [BurpSuite](https://tryhackme.com/room/rpburpsuite) room first. - **Answer** NO Answer, just click **Completed**
+
+<!-- Need to Add a Image --!>
+
+3. Run this attack, what extension is allowed? - **Answer** **.phtml**
+
 
 4. You should see a connection on your netcat session **Answer** NO Answer, just click **Completed** 
 
