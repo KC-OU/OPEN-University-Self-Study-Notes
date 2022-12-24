@@ -41,7 +41,7 @@ GoBuster is a tool used to brute-force URIs (directories and files), DNS subdoma
 
 ### Task 4 Compromise the webserver
 Now you have found a form to upload files, we can leverage this to upload and execute our payload that will lead to compromising the web server.
-:
+
 #### Reverse PHP Shell
 
 Now we know what extension we can use for our payload we can progress.
@@ -85,6 +85,7 @@ To do this, we're going to use BurpSuite. If you are unsure to what BurpSuite is
 Now you have compromised this machine, we are going to escalate our privileges and become the superuser (root).
 
 [GTFOBins](https://gtfobins.github.io/) is the best tool for bypass local security restrictions but to bypass the [systemctl](https://gtfobins.github.io/gtfobins/systemctl/) binary you need to modify this script to work with SystemCTL
+
 <code>
 sudo install -m =xs $(which systemctl) .
 
@@ -102,8 +103,6 @@ WantedBy=multi-user.target' > $TF
 1. On the system, search for all SUID files. What file stands out? **Answer** **/bin/systemctl**
 
 2. Become root and get the last flag (/root/root.txt) **Answer**  **You can find it as a root Flag**
-
-
 
 {{< youtube hvYWCegfEZs>}} 
 
