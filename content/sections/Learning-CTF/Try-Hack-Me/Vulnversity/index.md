@@ -42,9 +42,9 @@ GoBuster is a tool used to brute-force URIs (directories and files), DNS subdoma
 ### Task 4 Compromise the webserver
 Now you have found a form to upload files, we can leverage this to upload and execute our payload that will lead to compromising the web server.
 
-[CAT phpext.txt](https://i.imgur.com/ED153Nx.png "phpext") 
+![CAT phpext.txt](https://i.imgur.com/ED153Nx.png "phpext") 
 
-[Burp Suite Payload](https://i.imgur.com/6dxnzq6.png "PAyload") 
+![Burp Suite Payload](https://i.imgur.com/6dxnzq6.png "PAyload") 
 
 #### Reverse PHP Shell
 
@@ -64,7 +64,7 @@ To gain remote access to this machine, follow these steps:
 
 - Upload your shell and navigate to http://<ip>:3333/internal/uploads/php-reverse-shell.phtml - This will execute your payload
 
-[PHP Reverse Shell](https://i.imgur.com/FGcvTCp.png "PHP") 
+![PHP Reverse Shell](https://i.imgur.com/FGcvTCp.png "PHP") 
 
 #### Questions
 1. What common file type, which you'd want to upload to exploit the server, is blocked? Try a couple to find out. - **Answer** **.php** 
