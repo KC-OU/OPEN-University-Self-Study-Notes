@@ -98,7 +98,10 @@ WantedBy=multi-user.target'> $TF
 2. Become root and get the last flag (/root/root.txt) **Answer**  **You can find it as a root Flag**
 
 
+{{< youtube hvYWCegfEZs>}}
 
 
-{{< youtube hvYWCegfEZs>}} 
+
+
+ 
 
