@@ -1,4 +1,4 @@
 ---
 title: TryHackMe
-image: thm.jpg
+image: thm.png
 ---
