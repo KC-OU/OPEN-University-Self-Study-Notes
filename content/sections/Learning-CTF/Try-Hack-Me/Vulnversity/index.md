@@ -42,6 +42,10 @@ GoBuster is a tool used to brute-force URIs (directories and files), DNS subdoma
 ### Task 4 Compromise the webserver
 Now you have found a form to upload files, we can leverage this to upload and execute our payload that will lead to compromising the web server.
 
+[CAT phpext.txt](https://i.imgur.com/ED153Nx.png "phpext") 
+
+[Burp Suite Payload](https://i.imgur.com/6dxnzq6.png "PAyload") 
+
 #### Reverse PHP Shell
 
 Now we know what extension we can use for our payload we can progress.
@@ -59,6 +63,8 @@ To gain remote access to this machine, follow these steps:
 - We're now going to listen to incoming connections using netcat. Run the following command: nc -lvnp 1234
 
 - Upload your shell and navigate to http://<ip>:3333/internal/uploads/php-reverse-shell.phtml - This will execute your payload
+
+[PHP Reverse Shell](https://i.imgur.com/FGcvTCp.png "PHP") 
 
 #### Questions
 1. What common file type, which you'd want to upload to exploit the server, is blocked? Try a couple to find out. - **Answer** **.php** 
@@ -84,6 +90,9 @@ WantedBy=multi-user.target'> $TF
 ./systemctl link $TF
 ./systemctl enable --now $TF
 ```
+![SUID Image](https://i.imgur.com/ZhaNR2p.jpg "SUID")
+
+
 ### Questions
 1. On the system, search for all SUID files. What file stands out? **Answer** **/bin/systemctl**
 2. Become root and get the last flag (/root/root.txt) **Answer**  **You can find it as a root Flag**
