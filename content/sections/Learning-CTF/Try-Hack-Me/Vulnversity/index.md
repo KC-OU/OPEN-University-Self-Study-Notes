@@ -84,7 +84,7 @@ To gain remote access to this machine, follow these steps:
 ### Task 5 Privilege Escalation
 Now you have compromised this machine, we are going to escalate our privileges and become the superuser (root).
 
-[GTFOBins](https://gtfobins.github.io/) is the best tool for bypass local security restrictions but to bypass the systemctl binary you need to modify this script to work with SystemCTL
+[GTFOBins](https://gtfobins.github.io/) is the best tool for bypass local security restrictions but to bypass the [systemctl](https://gtfobins.github.io/gtfobins/systemctl/) binary you need to modify this script to work with SystemCTL
 <code>
 sudo install -m =xs $(which systemctl) .
 
